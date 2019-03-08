@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>gridcss</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+ <!-- <link rel="stylesheet" href="style.css"> -->
+ </head>
+ <body>
+ <main>
+<!-- grid css  -->
+
+<style>
+  .d1{background:LightSkyBlue;}
+  .d2{background:LightSalmon;}
+  .d3{background:PaleTurquoise;}
+  .d4{background:LightPink;}
+  .d5{
+    background:PaleGreen;
+    grid-area: footer;
+}
+
+  .d6{background:LightSkyBlue;}
+  .d7{background:LightSalmon;}
+  .d8{background:PaleTurquoise;}
+  .d9{background:LightPink;}
+
+  .container {
+    font-size: 40px;
+    width: 100%;
+    background: lightgray;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    /* grid-template-columns: 3 fr 1fr 1fr; */
+    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(3, 1fr); repeating the same code multiple times */
+    /* grid-template-columns: 100px 100px 100px; */
+    /* grid-template-rows: 50px 50px; */
+    grid-column-gap: 20px;
+    grid-column: 2 / 4;
+    align-items: end;
+    /* justify-self: center; */
+    /* grid-row: 2/4; */
+    /* https://learn.freecodecamp.org/responsive-web-design/css-grid/create-a-column-gap-using-grid-column-gap */
+    /* https://learn.freecodecamp.org/responsive-web-design/css-grid/use-css-grid-units-to-change-the-size-of-columns-and-rows */
+  }
+</style>
+  
+<div class="container">
+  <div class="d1">1</div>
+  <div class="d2">2</div>
+  <div class="d3">3</div>
+  <div class="d4">4</div>
+  <div class="d5">5</div>
+  <div class="d6">6</div>
+  <div class="d7">7</div>
+  <div class="d8">8</div>
+  <div class="d9">9</div>
+</div>
+ </main>
+ </body>

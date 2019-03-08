@@ -1,0 +1,71 @@
+body {
+    background-color: white
+} 
+
+.box {
+background-color: rgb(10, 10, 201);
+width: 900px;
+height: 900px;
+margin-left: auto;
+margin-right: auto;
+border-spacing: 5px;
+z-index: 0;
+}
+
+
+.panda-face {
+height: 700px;
+width: 700px;
+background-color: white;
+border-radius: 60%;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+z-index: 1;
+top: -400px;
+}
+
+.right-ear {
+height: 250px;
+width: 400px;
+background-color: black;
+border-radius: 70%;
+transform: rotate(85deg);
+z-index: 0;
+position: relative;
+right: 100px;
+bottom: -300px;
+}
+
+.left-ear {
+height: 250px;
+width: 400px;
+background-color: red;
+border-radius: 70%;
+transform: rotate(95deg);
+top: 54px;
+z-index: 0;
+position: relative;
+right: -600px;
+}
+
+
+
+
+
+
+
+
+.left-eye {
+height: 200px;
+width: 400px;
+background-color: rgb(26, 20, 20);
+border-radius: 50%;
+}
+
+.right-eye {
+height: 200px;
+width: 400px;
+background-color: rgb(26, 20, 20);
+border-radius: 50%;
+}
